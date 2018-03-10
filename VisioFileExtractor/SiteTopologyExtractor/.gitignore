@@ -1,0 +1,13 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/packages
+/SiteTopologyExtractor/bin
+
+# dependencies
+/SiteTopologyExtractor/bin
+/SiteTopologyExtractor/obj
+/SiteTopologyExtractor/Properties
+
+# IDEs and editors
+/.vs
