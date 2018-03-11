@@ -4,9 +4,8 @@
   "description": "This is a small example of clustering in node.js.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js -o",
-    "loadtest": "loadtest -c 10 --rps 100 http://localhost:9090/"
+    "test": "loadtest -t 900 -c 10 --rps 100 http://localhost:9090/"
   },
   "keywords": [
     "node.js",

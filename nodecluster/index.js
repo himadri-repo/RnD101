@@ -8,6 +8,8 @@ var noOfCPUs = os.cpus().length;
 var workers = [];
 
 
+cluster.schedulingPolicy = cluster.SCHED_RR;
+
 cluster.on('online', workerInit);
 cluster.on('exit', workerExit);
 
@@ -23,7 +25,7 @@ else {
     //worker items
     http.createServer(function(req, res) {
         res.writeHead(200);
-        res.end('process ' + process.pid + 'says hello');
+        res.end('process ' + process.pid + ' says hello');
     }).listen(PORT);
 }
 
