@@ -6,3 +6,5 @@ This project is all about reading Visio file stored in a specific path (.vsdx fi
 
 ## [Node Cluster](https://github.com/himadri-repo/RnD101/tree/master/nodecluster)
 This project is to test node.js clustering. It generates workers by number of CPU available in the testing environment. This project also having "loadtest" to simulate concurrent connection and proxy users to test the portal url.
+
+![alt text](https://github.com/himadri-repo/RnD101/blob/master/Images/NodejsClusterPerformance.JPG "Node.js Cluster Performance")
